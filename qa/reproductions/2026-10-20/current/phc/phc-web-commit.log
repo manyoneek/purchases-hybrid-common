@@ -1,0 +1,4 @@
+b63fe8d4 Convert web period prices from micros to currency units
+ .../src/mappers/offerings_mapper.ts                | 12 +++-
+ .../tests/mappers/offerings_mapper.test.ts         | 77 +++++++++++++++++++---
+ 2 files changed, 77 insertions(+), 12 deletions(-)

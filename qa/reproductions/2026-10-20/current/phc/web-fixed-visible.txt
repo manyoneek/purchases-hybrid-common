@@ -1,0 +1,25 @@
+SDK Bug Reporter · web-only price units
+
+Shared mappings 19.14.0 · 466bddb7 · purchases-js 1.70.0
+
+Real Test Store offerings → actual PurchasesCommon.getOfferings() → public product prices.
+
+Expected: numeric period prices use currency units, matching their formatted strings.
+
+Run actual SDK flow
+FIXED · 4 passed / 0 failed
+Product: bug_reporter_monthly · $9.99 / month
+
+PASS pricePerWeek
+  actual: 2.29 · formatted: $2.29 · expected ≈ 2.29
+
+PASS pricePerMonth
+  actual: 9.99 · formatted: $9.99 · expected ≈ 9.99
+
+PASS pricePerYear
+  actual: 119.88 · formatted: $119.88 · expected ≈ 119.88
+
+PASS normal price control
+  actual: 9.99 · formatted: $9.99 · expected ≈ 9.99
+
+Web-only evidence. No native mobile reproduction of this defect is claimed.

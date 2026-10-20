@@ -1,0 +1,184 @@
+{
+  "variant": "before",
+  "finished": true,
+  "checks": [
+    {
+      "name": "pricePerWeek",
+      "actual": 2290000,
+      "formatted": "$2.29",
+      "expected": 2.29,
+      "pass": false
+    },
+    {
+      "name": "pricePerMonth",
+      "actual": 9990000,
+      "formatted": "$9.99",
+      "expected": 9.99,
+      "pass": false
+    },
+    {
+      "name": "pricePerYear",
+      "actual": 119880000,
+      "formatted": "$119.88",
+      "expected": 119.88,
+      "pass": false
+    },
+    {
+      "name": "normal price control",
+      "actual": 9.99,
+      "formatted": "$9.99",
+      "expected": 9.99,
+      "pass": true
+    }
+  ],
+  "passed": 1,
+  "failed": 3,
+  "product": {
+    "identifier": "bug_reporter_monthly",
+    "description": "",
+    "title": "Bug Reporter Monthly",
+    "price": 9.99,
+    "priceString": "$9.99",
+    "currencyCode": "USD",
+    "introPrice": null,
+    "discounts": null,
+    "pricePerWeek": 2290000,
+    "pricePerMonth": 9990000,
+    "pricePerYear": 119880000,
+    "pricePerWeekString": "$2.29",
+    "pricePerMonthString": "$9.99",
+    "pricePerYearString": "$119.88",
+    "productCategory": "SUBSCRIPTION",
+    "productType": "AUTO_RENEWABLE_SUBSCRIPTION",
+    "subscriptionPeriod": "P1M",
+    "defaultOption": {
+      "id": "base_option",
+      "storeProductId": "bug_reporter_monthly",
+      "productId": "bug_reporter_monthly",
+      "pricingPhases": [
+        {
+          "billingPeriod": {
+            "unit": "MONTH",
+            "value": 1,
+            "iso8601": "P1M"
+          },
+          "recurrenceMode": 3,
+          "billingCycleCount": 1,
+          "price": {
+            "formatted": "$9.99",
+            "amountMicros": 9990000,
+            "currencyCode": "USD"
+          },
+          "offerPaymentMode": null
+        }
+      ],
+      "tags": [],
+      "isBasePlan": true,
+      "billingPeriod": {
+        "unit": "MONTH",
+        "value": 1,
+        "iso8601": "P1M"
+      },
+      "isPrepaid": false,
+      "fullPricePhase": {
+        "billingPeriod": {
+          "unit": "MONTH",
+          "value": 1,
+          "iso8601": "P1M"
+        },
+        "recurrenceMode": 3,
+        "billingCycleCount": 1,
+        "price": {
+          "formatted": "$9.99",
+          "amountMicros": 9990000,
+          "currencyCode": "USD"
+        },
+        "offerPaymentMode": null
+      },
+      "freePhase": null,
+      "introPhase": null,
+      "presentedOfferingIdentifier": "default",
+      "presentedOfferingContext": {
+        "offeringIdentifier": "default",
+        "placementIdentifier": null,
+        "targetingContext": {
+          "revision": 2,
+          "ruleId": "tvpeenTzcQ"
+        }
+      },
+      "installmentsInfo": null
+    },
+    "subscriptionOptions": [
+      {
+        "id": "base_option",
+        "storeProductId": "bug_reporter_monthly",
+        "productId": "bug_reporter_monthly",
+        "pricingPhases": [
+          {
+            "billingPeriod": {
+              "unit": "MONTH",
+              "value": 1,
+              "iso8601": "P1M"
+            },
+            "recurrenceMode": 3,
+            "billingCycleCount": 1,
+            "price": {
+              "formatted": "$9.99",
+              "amountMicros": 9990000,
+              "currencyCode": "USD"
+            },
+            "offerPaymentMode": null
+          }
+        ],
+        "tags": [],
+        "isBasePlan": true,
+        "billingPeriod": {
+          "unit": "MONTH",
+          "value": 1,
+          "iso8601": "P1M"
+        },
+        "isPrepaid": false,
+        "fullPricePhase": {
+          "billingPeriod": {
+            "unit": "MONTH",
+            "value": 1,
+            "iso8601": "P1M"
+          },
+          "recurrenceMode": 3,
+          "billingCycleCount": 1,
+          "price": {
+            "formatted": "$9.99",
+            "amountMicros": 9990000,
+            "currencyCode": "USD"
+          },
+          "offerPaymentMode": null
+        },
+        "freePhase": null,
+        "introPhase": null,
+        "presentedOfferingIdentifier": "default",
+        "presentedOfferingContext": {
+          "offeringIdentifier": "default",
+          "placementIdentifier": null,
+          "targetingContext": {
+            "revision": 2,
+            "ruleId": "tvpeenTzcQ"
+          }
+        },
+        "installmentsInfo": null
+      }
+    ],
+    "presentedOfferingIdentifier": "default",
+    "presentedOfferingContext": {
+      "offeringIdentifier": "default",
+      "placementIdentifier": null,
+      "targetingContext": {
+        "revision": 2,
+        "ruleId": "tvpeenTzcQ"
+      }
+    },
+    "installmentsInfo": null
+  },
+  "syntheticUser": "bug-reporter-web-prices-d4ebffbd-5fb2-4d12-aaba-6180e273a471",
+  "projectId": "proj602cc762",
+  "appId": "app4ca00b430f"
+}

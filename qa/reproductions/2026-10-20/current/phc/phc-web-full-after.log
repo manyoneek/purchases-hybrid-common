@@ -1,0 +1,774 @@
+
+> @revenuecat/purchases-js-hybrid-mappings@19.14.0 test
+> tsc -p tests/tsconfig.json && jest --runInBand
+
+PASS tests/purchases-common.test.ts
+  ● Console
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:231:23)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:251:23)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:276:23)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:295:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:295:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:295:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:295:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:337:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:337:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:337:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:337:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:337:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:337:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:337:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:337:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+    console.error
+      Error presenting paywall: Network error. Underlying error: undefined
+
+       7 |   static error(message: string): void {
+       8 |     // eslint-disable-next-line no-console
+    >  9 |     console.error(message);
+         |             ^
+      10 |   }
+      11 | }
+      12 |
+
+      at Logger.error (src/utils/logger.ts:9:13)
+      at PurchasesCommon.presentPaywall (src/purchases-common.ts:322:16)
+      at Object.<anonymous> (tests/purchases-common.test.ts:778:22)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+    console.error
+      Error: Something went wrong
+
+       7 |   static error(message: string): void {
+       8 |     // eslint-disable-next-line no-console
+    >  9 |     console.error(message);
+         |             ^
+      10 |   }
+      11 | }
+      12 |
+
+      at Logger.error (src/utils/logger.ts:9:13)
+      at PurchasesCommon.presentPaywall (src/purchases-common.ts:327:16)
+      at Object.<anonymous> (tests/purchases-common.test.ts:787:22)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+PASS tests/mappers/customer_info_mapper.test.ts
+PASS tests/mappers/virtual_currencies_mapper.test.ts
+PASS tests/mappers/purchase_result_mapper.test.ts
+PASS tests/mappers/purchases_error_mapper.test.ts
+PASS tests/paywall-interaction-event-type.test.ts
+FAIL tests/mappers/offerings_mapper.test.ts
+  ● mapOfferings › maps Offerings with more complete data correctly
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 36
+    + Received  + 36
+
+    @@ -121,15 +121,15 @@
+                    "ruleId": "rule_123",
+                  },
+                },
+                "presentedOfferingIdentifier": "premium_offering",
+                "price": 4.99,
+    -           "pricePerMonth": 415833,
+    +           "pricePerMonth": 0.415833,
+                "pricePerMonthString": "$0.42",
+    -           "pricePerWeek": 96346,
+    +           "pricePerWeek": 0.096346,
+                "pricePerWeekString": "$0.10",
+    -           "pricePerYear": 4990000,
+    +           "pricePerYear": 4.99,
+                "pricePerYearString": "$4.99",
+                "priceString": "$4.99",
+                "productCategory": "SUBSCRIPTION",
+                "productType": "AUTO_RENEWABLE_SUBSCRIPTION",
+                "subscriptionOptions": Array [
+    @@ -346,15 +346,15 @@
+                      "ruleId": "rule_123",
+                    },
+                  },
+                  "presentedOfferingIdentifier": "premium_offering",
+                  "price": 4.99,
+    -             "pricePerMonth": 415833,
+    +             "pricePerMonth": 0.415833,
+                  "pricePerMonthString": "$0.42",
+    -             "pricePerWeek": 96346,
+    +             "pricePerWeek": 0.096346,
+                  "pricePerWeekString": "$0.10",
+    -             "pricePerYear": 4990000,
+    +             "pricePerYear": 4.99,
+                  "pricePerYearString": "$4.99",
+                  "priceString": "$4.99",
+                  "productCategory": "SUBSCRIPTION",
+                  "productType": "AUTO_RENEWABLE_SUBSCRIPTION",
+                  "subscriptionOptions": Array [
+    @@ -570,15 +570,15 @@
+                      "ruleId": "rule_123",
+                    },
+                  },
+                  "presentedOfferingIdentifier": "premium_offering",
+                  "price": 4.99,
+    -             "pricePerMonth": 4990000,
+    +             "pricePerMonth": 4.99,
+                  "pricePerMonthString": "$4.99",
+    -             "pricePerWeek": 1151538,
+    +             "pricePerWeek": 1.151538,
+                  "pricePerWeekString": "$1.15",
+    -             "pricePerYear": 59880000,
+    +             "pricePerYear": 59.88,
+                  "pricePerYearString": "$59.88",
+                  "priceString": "$4.99",
+                  "productCategory": "SUBSCRIPTION",
+                  "productType": "AUTO_RENEWABLE_SUBSCRIPTION",
+                  "subscriptionOptions": Array [
+    @@ -794,15 +794,15 @@
+                      "ruleId": "rule_123",
+                    },
+                  },
+                  "presentedOfferingIdentifier": "premium_offering",
+                  "price": 4.99,
+    -             "pricePerMonth": 4990000,
+    +             "pricePerMonth": 4.99,
+                  "pricePerMonthString": "$4.99",
+    -             "pricePerWeek": 96346,
+    +             "pricePerWeek": 0.096346,
+                  "pricePerWeekString": "$0.10",
+    -             "pricePerYear": 59880000,
+    +             "pricePerYear": 59.88,
+                  "pricePerYearString": "$59.88",
+                  "priceString": "$4.99",
+                  "productCategory": "SUBSCRIPTION",
+                  "productType": "AUTO_RENEWABLE_SUBSCRIPTION",
+                  "subscriptionOptions": Array [
+    @@ -1114,15 +1114,15 @@
+                    "ruleId": "rule_123",
+                  },
+                },
+                "presentedOfferingIdentifier": "premium_offering",
+                "price": 4.99,
+    -           "pricePerMonth": 4990000,
+    +           "pricePerMonth": 4.99,
+                "pricePerMonthString": "$4.99",
+    -           "pricePerWeek": 1151538,
+    +           "pricePerWeek": 1.151538,
+                "pricePerWeekString": "$1.15",
+    -           "pricePerYear": 59880000,
+    +           "pricePerYear": 59.88,
+                "pricePerYearString": "$59.88",
+                "priceString": "$4.99",
+                "productCategory": "SUBSCRIPTION",
+                "productType": "AUTO_RENEWABLE_SUBSCRIPTION",
+                "subscriptionOptions": Array [
+    @@ -1343,15 +1343,15 @@
+                    "ruleId": "rule_123",
+                  },
+                },
+                "presentedOfferingIdentifier": "premium_offering",
+                "price": 4.99,
+    -           "pricePerMonth": 4990000,
+    +           "pricePerMonth": 4.99,
+                "pricePerMonthString": "$4.99",
+    -           "pricePerWeek": 96346,
+    +           "pricePerWeek": 0.096346,
+                "pricePerWeekString": "$0.10",
+    -           "pricePerYear": 59880000,
+    +           "pricePerYear": 59.88,
+                "pricePerYearString": "$59.88",
+                "priceString": "$4.99",
+                "productCategory": "SUBSCRIPTION",
+                "productType": "AUTO_RENEWABLE_SUBSCRIPTION",
+                "subscriptionOptions": Array [
+    @@ -1570,15 +1570,15 @@
+                  "ruleId": "rule_123",
+                },
+              },
+              "presentedOfferingIdentifier": "premium_offering",
+              "price": 4.99,
+    -         "pricePerMonth": 415833,
+    +         "pricePerMonth": 0.415833,
+              "pricePerMonthString": "$0.42",
+    -         "pricePerWeek": 96346,
+    +         "pricePerWeek": 0.096346,
+              "pricePerWeekString": "$0.10",
+    -         "pricePerYear": 4990000,
+    +         "pricePerYear": 4.99,
+              "pricePerYearString": "$4.99",
+              "priceString": "$4.99",
+              "productCategory": "SUBSCRIPTION",
+              "productType": "AUTO_RENEWABLE_SUBSCRIPTION",
+              "subscriptionOptions": Array [
+    @@ -1795,15 +1795,15 @@
+                    "ruleId": "rule_123",
+                  },
+                },
+                "presentedOfferingIdentifier": "premium_offering",
+                "price": 4.99,
+    -           "pricePerMonth": 415833,
+    +           "pricePerMonth": 0.415833,
+                "pricePerMonthString": "$0.42",
+    -           "pricePerWeek": 96346,
+    +           "pricePerWeek": 0.096346,
+                "pricePerWeekString": "$0.10",
+    -           "pricePerYear": 4990000,
+    +           "pricePerYear": 4.99,
+                "pricePerYearString": "$4.99",
+                "priceString": "$4.99",
+                "productCategory": "SUBSCRIPTION",
+                "productType": "AUTO_RENEWABLE_SUBSCRIPTION",
+                "subscriptionOptions": Array [
+    @@ -2019,15 +2019,15 @@
+                    "ruleId": "rule_123",
+                  },
+                },
+                "presentedOfferingIdentifier": "premium_offering",
+                "price": 4.99,
+    -           "pricePerMonth": 4990000,
+    +           "pricePerMonth": 4.99,
+                "pricePerMonthString": "$4.99",
+    -           "pricePerWeek": 1151538,
+    +           "pricePerWeek": 1.151538,
+                "pricePerWeekString": "$1.15",
+    -           "pricePerYear": 59880000,
+    +           "pricePerYear": 59.88,
+                "pricePerYearString": "$59.88",
+                "priceString": "$4.99",
+                "productCategory": "SUBSCRIPTION",
+                "productType": "AUTO_RENEWABLE_SUBSCRIPTION",
+                "subscriptionOptions": Array [
+    @@ -2243,15 +2243,15 @@
+                    "ruleId": "rule_123",
+                  },
+                },
+                "presentedOfferingIdentifier": "premium_offering",
+                "price": 4.99,
+    -           "pricePerMonth": 4990000,
+    +           "pricePerMonth": 4.99,
+                "pricePerMonthString": "$4.99",
+    -           "pricePerWeek": 96346,
+    +           "pricePerWeek": 0.096346,
+                "pricePerWeekString": "$0.10",
+    -           "pricePerYear": 59880000,
+    +           "pricePerYear": 59.88,
+                "pricePerYearString": "$59.88",
+                "priceString": "$4.99",
+                "productCategory": "SUBSCRIPTION",
+                "productType": "AUTO_RENEWABLE_SUBSCRIPTION",
+                "subscriptionOptions": Array [
+    @@ -2563,15 +2563,15 @@
+                  "ruleId": "rule_123",
+                },
+              },
+              "presentedOfferingIdentifier": "premium_offering",
+              "price": 4.99,
+    -         "pricePerMonth": 4990000,
+    +         "pricePerMonth": 4.99,
+              "pricePerMonthString": "$4.99",
+    -         "pricePerWeek": 1151538,
+    +         "pricePerWeek": 1.151538,
+              "pricePerWeekString": "$1.15",
+    -         "pricePerYear": 59880000,
+    +         "pricePerYear": 59.88,
+              "pricePerYearString": "$59.88",
+              "priceString": "$4.99",
+              "productCategory": "SUBSCRIPTION",
+              "productType": "AUTO_RENEWABLE_SUBSCRIPTION",
+              "subscriptionOptions": Array [
+    @@ -2792,15 +2792,15 @@
+                  "ruleId": "rule_123",
+                },
+              },
+              "presentedOfferingIdentifier": "premium_offering",
+              "price": 4.99,
+    -         "pricePerMonth": 4990000,
+    +         "pricePerMonth": 4.99,
+              "pricePerMonthString": "$4.99",
+    -         "pricePerWeek": 96346,
+    +         "pricePerWeek": 0.096346,
+              "pricePerWeekString": "$0.10",
+    -         "pricePerYear": 59880000,
+    +         "pricePerYear": 59.88,
+              "pricePerYearString": "$59.88",
+              "priceString": "$4.99",
+              "productCategory": "SUBSCRIPTION",
+              "productType": "AUTO_RENEWABLE_SUBSCRIPTION",
+              "subscriptionOptions": Array [
+
+      551 |     };
+      552 |
+    > 553 |     expect(result).toEqual({
+          |                    ^
+      554 |       all: {
+      555 |         'premium_offering': expectedOffering,
+      556 |       },
+
+      at Object.<anonymous> (tests/mappers/offerings_mapper.test.ts:553:20)
+
+Test Suites: 1 failed, 6 passed, 7 total
+Tests:       1 failed, 61 passed, 62 total
+Snapshots:   0 total
+Time:        0.728 s, estimated 1 s
+Ran all test suites.

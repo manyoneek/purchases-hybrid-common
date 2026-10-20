@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/phc-ios/scripts/period_price_null_contract.py", line 69, in <module>
+    assert len(d['missingFields'])==0 and len(d['nullFields'])==6 and len(d['presentControlFields'])==6, d
+AssertionError: {'expectedNullCount': 6, 'missingFields': ['pricePerWeek', 'pricePerMonth', 'pricePerYear', 'pricePerWeekString', 'pricePerMonthString', 'pricePerYearString'], 'nullFields': [], 'presentControlFields': ['pricePerWeek', 'pricePerMonth', 'pricePerYear', 'pricePerWeekString', 'pricePerMonthString', 'pricePerYearString'], 'commit': '466bddb7170d6cef064c347c1c270817dc1617fe', 'sourceSHA256': 'd94672853bed4e1a1d872b51521d1a1636cf2f3dfebfb12fe0493adc658e2a4b', 'scope': 'Unmodified latest production mapper; synthetic product properties via dependency shim; macOS Foundation, not full historical iOS SDK/app.'}

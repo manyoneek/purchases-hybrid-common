@@ -1,0 +1,10 @@
+
+> @revenuecat/purchases-js-hybrid-mappings@19.14.0 build
+> rollup -c
+
+
+src/index.ts → dist/index.js, dist/index.umd.js...
+created dist/index.js, dist/index.umd.js in 2.7s
+
+src/index.ts → dist/index.d.ts...
+created dist/index.d.ts in 293ms

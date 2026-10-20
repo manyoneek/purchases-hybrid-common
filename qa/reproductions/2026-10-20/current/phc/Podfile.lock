@@ -1,0 +1,23 @@
+PODS:
+  - PurchasesHybridCommon (19.14.0):
+    - RevenueCat (= 5.96.0)
+  - RevenueCat (5.96.0)
+
+DEPENDENCIES:
+  - PurchasesHybridCommon (from `../worktrees/purchases-hybrid-common`)
+
+SPEC REPOS:
+  trunk:
+    - RevenueCat
+
+EXTERNAL SOURCES:
+  PurchasesHybridCommon:
+    :path: "../worktrees/purchases-hybrid-common"
+
+SPEC CHECKSUMS:
+  PurchasesHybridCommon: 788352edd488fbae596bdacfe8ee3e0d32a65362
+  RevenueCat: 8c42ebba42490dc7da8499541ab4d27187c8a480
+
+PODFILE CHECKSUM: 9dda1bc07c79d063f02e0412c4f760c239d41f58
+
+COCOAPODS: 1.17.0

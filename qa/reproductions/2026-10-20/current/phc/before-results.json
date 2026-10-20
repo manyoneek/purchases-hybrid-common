@@ -1,0 +1,104 @@
+{
+  "appId": "app4ca00b430f",
+  "checks": [
+    {
+      "actual": 2,
+      "name": "two real products",
+      "pass": true
+    },
+    {
+      "actual": "<missing>",
+      "name": "lifetime.pricePerWeek",
+      "pass": false
+    },
+    {
+      "actual": "<missing>",
+      "name": "lifetime.pricePerMonth",
+      "pass": false
+    },
+    {
+      "actual": "<missing>",
+      "name": "lifetime.pricePerYear",
+      "pass": false
+    },
+    {
+      "actual": "<missing>",
+      "name": "lifetime.pricePerWeekString",
+      "pass": false
+    },
+    {
+      "actual": "<missing>",
+      "name": "lifetime.pricePerMonthString",
+      "pass": false
+    },
+    {
+      "actual": "<missing>",
+      "name": "lifetime.pricePerYearString",
+      "pass": false
+    },
+    {
+      "actual": 2.29,
+      "name": "monthly.pricePerWeek",
+      "pass": true
+    },
+    {
+      "actual": 9.99,
+      "name": "monthly.pricePerMonth",
+      "pass": true
+    },
+    {
+      "actual": 119.88,
+      "name": "monthly.pricePerYear",
+      "pass": true
+    },
+    {
+      "actual": "TypeError: undefined is not an object (evaluating 'product.pricePerMonth.toFixed')",
+      "name": "documented null guard",
+      "pass": false
+    }
+  ],
+  "failed": 7,
+  "finished": true,
+  "passed": 4,
+  "products": [
+    {
+      "currencyCode": "USD",
+      "description": "",
+      "discounts": [],
+      "identifier": "bug_reporter_monthly",
+      "installmentsInfo": null,
+      "introPrice": null,
+      "price": 9.99,
+      "pricePerMonth": 9.99,
+      "pricePerMonthString": "$9.99",
+      "pricePerWeek": 2.29,
+      "pricePerWeekString": "$2.29",
+      "pricePerYear": 119.88,
+      "pricePerYearString": "$119.88",
+      "priceString": "$9.99",
+      "productCategory": "SUBSCRIPTION",
+      "productType": "AUTO_RENEWABLE_SUBSCRIPTION",
+      "subscriptionPeriod": "P1M",
+      "title": "Bug Reporter Monthly"
+    },
+    {
+      "currencyCode": "USD",
+      "description": "",
+      "discounts": [],
+      "identifier": "bug_reporter_lifetime",
+      "installmentsInfo": null,
+      "introPrice": null,
+      "price": 19.989999999999995,
+      "priceString": "$19.99",
+      "productCategory": "NON_SUBSCRIPTION",
+      "productType": "NON_CONSUMABLE",
+      "subscriptionPeriod": null,
+      "title": "QA Lifetime"
+    }
+  ],
+  "projectId": "proj602cc762",
+  "syntheticUser": "bug-reporter-price-1766BE78-28D5-4FC5-8431-04DF9C53BC37",
+  "binaryPath": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/current-apps/phc/derived/Build/Products/Debug-iphonesimulator/SharedPriceRepro.app",
+  "recording": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/current-apps/phc/evidence/before.mp4",
+  "screenshot": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/current-apps/phc/evidence/before.png"
+}

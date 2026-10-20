@@ -1,0 +1,23 @@
+{
+  "expectedNullCount": 6,
+  "missingFields": [],
+  "nullFields": [
+    "pricePerWeek",
+    "pricePerMonth",
+    "pricePerYear",
+    "pricePerWeekString",
+    "pricePerMonthString",
+    "pricePerYearString"
+  ],
+  "presentControlFields": [
+    "pricePerWeek",
+    "pricePerMonth",
+    "pricePerYear",
+    "pricePerWeekString",
+    "pricePerMonthString",
+    "pricePerYearString"
+  ],
+  "commit": "466bddb7170d6cef064c347c1c270817dc1617fe",
+  "sourceSHA256": "b46495837eb767c3ccdfcf74d0c9c72fbc435dc5396de9402b6f417d2569d215",
+  "scope": "Unmodified latest production mapper; synthetic product properties via dependency shim; macOS Foundation, not full historical iOS SDK/app."
+}

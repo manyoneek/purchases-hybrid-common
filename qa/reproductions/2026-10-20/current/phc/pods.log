@@ -1,0 +1,10 @@
+Updating local specs repositories
+Analyzing dependencies
+Downloading dependencies
+Installing PurchasesHybridCommon (19.14.0)
+Installing RevenueCat (5.96.0)
+Generating Pods project
+Integrating client project
+
+[!] Please close any current Xcode sessions and use `SharedPriceRepro.xcworkspace` for this project from now on.
+Pod installation complete! There is 1 dependency from the Podfile and 2 total pods installed.
