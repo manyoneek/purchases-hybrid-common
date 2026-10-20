@@ -1,0 +1,529 @@
+
+> @revenuecat/purchases-js-hybrid-mappings@19.14.0 test
+> tsc -p tests/tsconfig.json && jest --runInBand
+
+PASS tests/mappers/offerings_mapper.test.ts
+PASS tests/purchases-common.test.ts
+  ● Console
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:231:23)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:251:23)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:276:23)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:295:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:295:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:295:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:295:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:337:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:337:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:337:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:337:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:337:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:337:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:337:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:337:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+    console.error
+      Error presenting paywall: Network error. Underlying error: undefined
+
+       7 |   static error(message: string): void {
+       8 |     // eslint-disable-next-line no-console
+    >  9 |     console.error(message);
+         |             ^
+      10 |   }
+      11 | }
+      12 |
+
+      at Logger.error (src/utils/logger.ts:9:13)
+      at PurchasesCommon.presentPaywall (src/purchases-common.ts:322:16)
+      at Object.<anonymous> (tests/purchases-common.test.ts:778:22)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+    console.error
+      Error: Something went wrong
+
+       7 |   static error(message: string): void {
+       8 |     // eslint-disable-next-line no-console
+    >  9 |     console.error(message);
+         |             ^
+      10 |   }
+      11 | }
+      12 |
+
+      at Logger.error (src/utils/logger.ts:9:13)
+      at PurchasesCommon.presentPaywall (src/purchases-common.ts:327:16)
+      at Object.<anonymous> (tests/purchases-common.test.ts:787:22)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+    console.warn
+      PurchasesCommon.configure() called more than once. Previous configuration will be overwritten.
+
+      2 |   static warn(message: string): void {
+      3 |     // eslint-disable-next-line no-console
+    > 4 |     console.warn(message);
+        |             ^
+      5 |   }
+      6 |
+      7 |   static error(message: string): void {
+
+      at Logger.warn (src/utils/logger.ts:4:13)
+      at PurchasesCommon.configure (src/purchases-common.ts:43:14)
+      at Object.<anonymous> (tests/purchases-common.test.ts:719:41)
+
+PASS tests/mappers/virtual_currencies_mapper.test.ts
+PASS tests/mappers/purchases_error_mapper.test.ts
+PASS tests/mappers/purchase_result_mapper.test.ts
+PASS tests/mappers/customer_info_mapper.test.ts
+PASS tests/paywall-interaction-event-type.test.ts
+
+Test Suites: 7 passed, 7 total
+Tests:       62 passed, 62 total
+Snapshots:   0 total
+Time:        0.535 s, estimated 1 s
+Ran all test suites.

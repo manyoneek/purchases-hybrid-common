@@ -1,0 +1,13 @@
+{
+  "id": "RC-PHC-20261017-002",
+  "repository": "RevenueCat/purchases-hybrid-common",
+  "commit": "d57b80dac170e549f92470f20991817cd167b6f1",
+  "pullRequest": "https://github.com/RevenueCat/purchases-hybrid-common/pull/1106",
+  "mergedDate": "2025-04-14",
+  "firstStableSourceTag": "13.28.1",
+  "classification": "Present since the web offerings mapper was introduced.",
+  "evidence": "The initial mapper divides `price` by 1,000,000 but forwards all three period-price `amountMicros` values unchanged. The regression against that historical source produces three failures and two passing null/zero controls; converting the three fields makes all five pass. The parent had no offerings mapper.",
+  "limitations": "Actual historical mapper and its original fixture helper under Jest, with locally installed test dependencies. No historical web app/backend run. Dependency installation used the historical semver ranges; the resolved lockfile is preserved.",
+  "investigatedAt": "2026-10-17",
+  "evidenceDirectory": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/history/2026-10-17"
+}

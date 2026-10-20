@@ -1,0 +1,24 @@
+[
+  {
+    "label": "regression-before",
+    "command": [
+      "python3",
+      "scripts/period_price_null_contract.py"
+    ],
+    "cwd": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/phc-ios",
+    "exit": 1,
+    "log": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/logs/phc-ios-regression-before.log",
+    "seconds": 8.35
+  },
+  {
+    "label": "regression-after",
+    "command": [
+      "python3",
+      "scripts/period_price_null_contract.py"
+    ],
+    "cwd": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/phc-ios",
+    "exit": 0,
+    "log": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/logs/phc-ios-regression-after.log",
+    "seconds": 1.81
+  }
+]

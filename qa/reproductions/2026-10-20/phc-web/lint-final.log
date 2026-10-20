@@ -1,0 +1,4 @@
+
+> @revenuecat/purchases-js-hybrid-mappings@19.14.0 lint
+> eslint . --ext .ts
+

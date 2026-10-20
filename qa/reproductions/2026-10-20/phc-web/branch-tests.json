@@ -1,0 +1,94 @@
+[
+  {
+    "label": "install",
+    "command": [
+      "corepack",
+      "yarn",
+      "install",
+      "--frozen-lockfile"
+    ],
+    "cwd": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/phc-web/purchases-js-hybrid-mappings",
+    "exit": 0,
+    "log": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/logs/phc-web-install.log",
+    "seconds": 6.02
+  },
+  {
+    "label": "regression-before",
+    "command": [
+      "npm",
+      "test",
+      "--",
+      "--runInBand",
+      "--testNamePattern=QA public currency-unit contract"
+    ],
+    "cwd": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/phc-web/purchases-js-hybrid-mappings",
+    "exit": 1,
+    "log": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/logs/phc-web-regression-before.log",
+    "seconds": 2.83
+  },
+  {
+    "label": "regression-after",
+    "command": [
+      "npm",
+      "test",
+      "--",
+      "--runInBand",
+      "--testNamePattern=QA public currency-unit contract"
+    ],
+    "cwd": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/phc-web/purchases-js-hybrid-mappings",
+    "exit": 0,
+    "log": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/logs/phc-web-regression-after.log",
+    "seconds": 2.07
+  },
+  {
+    "label": "full-after",
+    "command": [
+      "npm",
+      "test",
+      "--",
+      "--runInBand"
+    ],
+    "cwd": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/phc-web/purchases-js-hybrid-mappings",
+    "exit": 1,
+    "log": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/logs/phc-web-full-after.log",
+    "seconds": 1.56
+  },
+  {
+    "label": "format",
+    "command": [
+      "npx",
+      "prettier",
+      "--write",
+      "src/mappers/offerings_mapper.ts",
+      "tests/mappers/offerings_mapper.test.ts"
+    ],
+    "cwd": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/phc-web/purchases-js-hybrid-mappings",
+    "exit": 0,
+    "log": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/logs/phc-web-format.log",
+    "seconds": 0.56
+  },
+  {
+    "label": "lint",
+    "command": [
+      "npm",
+      "run",
+      "lint"
+    ],
+    "cwd": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/phc-web/purchases-js-hybrid-mappings",
+    "exit": 1,
+    "log": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/logs/phc-web-lint.log",
+    "seconds": 2.53
+  },
+  {
+    "label": "build",
+    "command": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "cwd": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/phc-web/purchases-js-hybrid-mappings",
+    "exit": 0,
+    "log": "<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/logs/phc-web-build.log",
+    "seconds": 7.42
+  }
+]

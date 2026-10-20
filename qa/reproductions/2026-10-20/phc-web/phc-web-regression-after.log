@@ -1,0 +1,11 @@
+
+> @revenuecat/purchases-js-hybrid-mappings@19.14.0 test
+> tsc -p tests/tsconfig.json && jest --runInBand --testNamePattern=QA public currency-unit contract
+
+PASS tests/mappers/offerings_mapper.test.ts
+
+Test Suites: 6 skipped, 1 passed, 1 of 7 total
+Tests:       57 skipped, 5 passed, 62 total
+Snapshots:   0 total
+Time:        0.9 s, estimated 1 s
+Ran all test suites with tests matching "QA public currency-unit contract".

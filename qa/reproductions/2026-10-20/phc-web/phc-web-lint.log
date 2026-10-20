@@ -1,0 +1,14 @@
+
+> @revenuecat/purchases-js-hybrid-mappings@19.14.0 lint
+> eslint . --ext .ts
+
+
+<local-user>/.openclaw/workspace/projects/revenuecat-bug-reporter/publication/2026-10-20/phc-web/purchases-js-hybrid-mappings/tests/mappers/offerings_mapper.test.ts
+  859:41  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  860:69  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  872:41  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  880:18  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  893:41  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+✖ 5 problems (5 errors, 0 warnings)
+

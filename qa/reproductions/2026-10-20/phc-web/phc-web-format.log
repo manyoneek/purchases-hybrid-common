@@ -1,0 +1,2 @@
+src/mappers/offerings_mapper.ts 71ms
+tests/mappers/offerings_mapper.test.ts 42ms

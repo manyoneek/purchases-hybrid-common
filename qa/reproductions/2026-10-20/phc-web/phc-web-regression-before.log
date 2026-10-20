@@ -1,0 +1,62 @@
+
+> @revenuecat/purchases-js-hybrid-mappings@19.14.0 test
+> tsc -p tests/tsconfig.json && jest --runInBand --testNamePattern=QA public currency-unit contract
+
+FAIL tests/mappers/offerings_mapper.test.ts
+  ● mapOfferings › QA public currency-unit contract › maps pricePerWeek to major currency units
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 1.151538
+    Received: 1151538
+
+      861 |       const mapped = (result.current as any).availablePackages[0].product;
+      862 |       const input = (pkg.product.defaultSubscriptionOption!.base as any)['pricePer' + period];
+    > 863 |       expect(mapped['pricePer' + period]).toBe(input.amountMicros / 1_000_000);
+          |                                           ^
+      864 |       expect(mapped['pricePer' + period + 'String']).toBe(input.formattedPrice);
+      865 |     });
+      866 |     it('preserves null period prices on lifetime products', () => {
+
+      at tests/mappers/offerings_mapper.test.ts:863:43
+
+  ● mapOfferings › QA public currency-unit contract › maps pricePerMonth to major currency units
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 4.99
+    Received: 4990000
+
+      861 |       const mapped = (result.current as any).availablePackages[0].product;
+      862 |       const input = (pkg.product.defaultSubscriptionOption!.base as any)['pricePer' + period];
+    > 863 |       expect(mapped['pricePer' + period]).toBe(input.amountMicros / 1_000_000);
+          |                                           ^
+      864 |       expect(mapped['pricePer' + period + 'String']).toBe(input.formattedPrice);
+      865 |     });
+      866 |     it('preserves null period prices on lifetime products', () => {
+
+      at tests/mappers/offerings_mapper.test.ts:863:43
+
+  ● mapOfferings › QA public currency-unit contract › maps pricePerYear to major currency units
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 59.88
+    Received: 59880000
+
+      861 |       const mapped = (result.current as any).availablePackages[0].product;
+      862 |       const input = (pkg.product.defaultSubscriptionOption!.base as any)['pricePer' + period];
+    > 863 |       expect(mapped['pricePer' + period]).toBe(input.amountMicros / 1_000_000);
+          |                                           ^
+      864 |       expect(mapped['pricePer' + period + 'String']).toBe(input.formattedPrice);
+      865 |     });
+      866 |     it('preserves null period prices on lifetime products', () => {
+
+      at tests/mappers/offerings_mapper.test.ts:863:43
+
+
+Test Suites: 1 failed, 6 skipped, 1 of 7 total
+Tests:       3 failed, 57 skipped, 2 passed, 62 total
+Snapshots:   0 total
+Time:        1.025 s
+Ran all test suites with tests matching "QA public currency-unit contract".
