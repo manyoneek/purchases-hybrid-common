@@ -1,0 +1,277 @@
+{
+  "phc-app-fixed": {
+    "command": [
+      "python3",
+      "run-native-regression.py",
+      "fixed"
+    ],
+    "cwd": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/phc-app",
+    "exit": 0,
+    "timedOut": false,
+    "seconds": 7.22,
+    "log": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/logs/phc-app-fixed.log"
+  },
+  "mappings-regression-fixed": {
+    "command": [
+      "npm",
+      "test",
+      "--",
+      "--runInBand"
+    ],
+    "cwd": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/worktrees/phc-web-fix/purchases-js-hybrid-mappings",
+    "exit": 0,
+    "timedOut": false,
+    "seconds": 1.29,
+    "log": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/logs/mappings-regression-fixed.log"
+  },
+  "mappings-build-fixed": {
+    "command": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "cwd": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/worktrees/phc-web-fix/purchases-js-hybrid-mappings",
+    "exit": 0,
+    "timedOut": false,
+    "seconds": 5.45,
+    "log": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/logs/mappings-build-fixed.log"
+  },
+  "mappings-build-before": {
+    "command": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "cwd": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/worktrees/purchases-hybrid-common/purchases-js-hybrid-mappings",
+    "exit": 0,
+    "timedOut": false,
+    "seconds": 3.48,
+    "log": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/logs/mappings-build-before.log"
+  },
+  "phc-app-pods-fixed": {
+    "command": [
+      "pod",
+      "install"
+    ],
+    "cwd": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/phc-app/native-app",
+    "exit": 0,
+    "timedOut": false,
+    "seconds": 1.04,
+    "log": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/logs/phc-app-pods-fixed.log"
+  },
+  "mappings-install": {
+    "command": [
+      "corepack",
+      "yarn",
+      "install",
+      "--frozen-lockfile"
+    ],
+    "cwd": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/worktrees/purchases-hybrid-common/purchases-js-hybrid-mappings",
+    "exit": 0,
+    "timedOut": false,
+    "seconds": 2.88,
+    "log": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/logs/mappings-install.log"
+  },
+  "mappings-regression-before": {
+    "command": [
+      "npm",
+      "test",
+      "--",
+      "--runInBand"
+    ],
+    "cwd": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/worktrees/purchases-hybrid-common/purchases-js-hybrid-mappings",
+    "exit": 1,
+    "timedOut": false,
+    "seconds": 1.4,
+    "log": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/logs/mappings-regression-before.log"
+  },
+  "phc-app-project": {
+    "command": [
+      "xcodegen",
+      "generate"
+    ],
+    "cwd": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/phc-app/native-app",
+    "exit": 0,
+    "timedOut": false,
+    "seconds": 0.08,
+    "log": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/logs/phc-app-project.log"
+  },
+  "phc-native-fixed": {
+    "command": [
+      "xcodebuild",
+      "test",
+      "-workspace",
+      "PurchasesHybridCommon.xcworkspace",
+      "-scheme",
+      "PurchasesHybridCommon",
+      "-destination",
+      "platform=iOS Simulator,id=286DC73D-2455-4F1B-A4A2-56E3BDEE64D9",
+      "-derivedDataPath",
+      "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/derived-phc-tests",
+      "-resultBundlePath",
+      "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/phc-native-fixed.xcresult",
+      "-collect-test-diagnostics",
+      "never",
+      "-parallel-testing-enabled",
+      "NO",
+      "CODE_SIGNING_ALLOWED=NO"
+    ],
+    "cwd": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/worktrees/purchases-hybrid-common/ios/PurchasesHybridCommon",
+    "exit": 0,
+    "timedOut": false,
+    "seconds": 6.22,
+    "log": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/logs/phc-native-fixed.log"
+  },
+  "phc-app-build-before": {
+    "command": [
+      "xcodebuild",
+      "build",
+      "-workspace",
+      "SharedPriceRepro.xcworkspace",
+      "-scheme",
+      "SharedPriceRepro",
+      "-destination",
+      "platform=iOS Simulator,id=286DC73D-2455-4F1B-A4A2-56E3BDEE64D9",
+      "-derivedDataPath",
+      "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/phc-app/derived",
+      "CODE_SIGNING_ALLOWED=NO"
+    ],
+    "cwd": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/phc-app/native-app",
+    "exit": 0,
+    "timedOut": false,
+    "seconds": 22.7,
+    "log": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/logs/phc-app-build-before.log"
+  },
+  "phc-native-baseline": {
+    "command": [
+      "xcodebuild",
+      "test",
+      "-workspace",
+      "PurchasesHybridCommon.xcworkspace",
+      "-scheme",
+      "PurchasesHybridCommon",
+      "-destination",
+      "platform=iOS Simulator,id=286DC73D-2455-4F1B-A4A2-56E3BDEE64D9",
+      "-derivedDataPath",
+      "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/derived-phc-tests",
+      "-resultBundlePath",
+      "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/phc-native-baseline.xcresult",
+      "-collect-test-diagnostics",
+      "never",
+      "-parallel-testing-enabled",
+      "NO",
+      "CODE_SIGNING_ALLOWED=NO"
+    ],
+    "cwd": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/worktrees/purchases-hybrid-common/ios/PurchasesHybridCommon",
+    "exit": 0,
+    "timedOut": false,
+    "seconds": 47.91,
+    "log": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/logs/phc-native-baseline.log"
+  },
+  "phc-pods": {
+    "command": [
+      "pod",
+      "install"
+    ],
+    "cwd": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/worktrees/purchases-hybrid-common/ios/PurchasesHybridCommon",
+    "exit": 0,
+    "timedOut": false,
+    "seconds": 2.72,
+    "log": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/logs/phc-pods.log"
+  },
+  "phc-app-pods": {
+    "command": [
+      "pod",
+      "install"
+    ],
+    "cwd": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/phc-app/native-app",
+    "exit": 0,
+    "timedOut": false,
+    "seconds": 1.37,
+    "log": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/logs/phc-app-pods.log"
+  },
+  "mappings-api-fixed": {
+    "command": [
+      "npm",
+      "run",
+      "api-test:ci"
+    ],
+    "cwd": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/worktrees/phc-web-fix/purchases-js-hybrid-mappings",
+    "exit": 0,
+    "timedOut": false,
+    "seconds": 5.8,
+    "log": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/logs/mappings-api-fixed.log"
+  },
+  "phc-app-build-fixed": {
+    "command": [
+      "xcodebuild",
+      "build",
+      "-workspace",
+      "SharedPriceRepro.xcworkspace",
+      "-scheme",
+      "SharedPriceRepro",
+      "-destination",
+      "platform=iOS Simulator,id=286DC73D-2455-4F1B-A4A2-56E3BDEE64D9",
+      "-derivedDataPath",
+      "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/phc-app/derived",
+      "CODE_SIGNING_ALLOWED=NO"
+    ],
+    "cwd": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/phc-app/native-app",
+    "exit": 0,
+    "timedOut": false,
+    "seconds": 5.05,
+    "log": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/logs/phc-app-build-fixed.log"
+  },
+  "mappings-baseline": {
+    "command": [
+      "npm",
+      "test",
+      "--",
+      "--runInBand"
+    ],
+    "cwd": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/worktrees/purchases-hybrid-common/purchases-js-hybrid-mappings",
+    "exit": 0,
+    "timedOut": false,
+    "seconds": 3.47,
+    "log": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/logs/mappings-baseline.log"
+  },
+  "phc-native-before": {
+    "command": [
+      "xcodebuild",
+      "test",
+      "-workspace",
+      "PurchasesHybridCommon.xcworkspace",
+      "-scheme",
+      "PurchasesHybridCommon",
+      "-destination",
+      "platform=iOS Simulator,id=286DC73D-2455-4F1B-A4A2-56E3BDEE64D9",
+      "-derivedDataPath",
+      "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/derived-phc-tests",
+      "-resultBundlePath",
+      "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/phc-native-before.xcresult",
+      "-collect-test-diagnostics",
+      "never",
+      "-parallel-testing-enabled",
+      "NO",
+      "CODE_SIGNING_ALLOWED=NO",
+      "-only-testing:PurchasesHybridCommonTests/StoreProductHybridAdditionsTests"
+    ],
+    "cwd": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/worktrees/purchases-hybrid-common/ios/PurchasesHybridCommon",
+    "exit": 65,
+    "timedOut": false,
+    "seconds": 7.08,
+    "log": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/logs/phc-native-before.log"
+  },
+  "phc-app-before": {
+    "command": [
+      "python3",
+      "run-native-regression.py",
+      "before"
+    ],
+    "cwd": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/phc-app",
+    "exit": 1,
+    "timedOut": false,
+    "seconds": 8.79,
+    "log": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/logs/phc-app-before.log"
+  }
+}

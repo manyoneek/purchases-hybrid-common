@@ -1,0 +1,110 @@
+{
+  "appId": "app4ca00b430f",
+  "checks": [
+    {
+      "actual": 2,
+      "name": "two real products",
+      "pass": true
+    },
+    {
+      "actual": null,
+      "name": "lifetime.pricePerWeek",
+      "pass": true
+    },
+    {
+      "actual": null,
+      "name": "lifetime.pricePerMonth",
+      "pass": true
+    },
+    {
+      "actual": null,
+      "name": "lifetime.pricePerYear",
+      "pass": true
+    },
+    {
+      "actual": null,
+      "name": "lifetime.pricePerWeekString",
+      "pass": true
+    },
+    {
+      "actual": null,
+      "name": "lifetime.pricePerMonthString",
+      "pass": true
+    },
+    {
+      "actual": null,
+      "name": "lifetime.pricePerYearString",
+      "pass": true
+    },
+    {
+      "actual": 2.29,
+      "name": "monthly.pricePerWeek",
+      "pass": true
+    },
+    {
+      "actual": 9.99,
+      "name": "monthly.pricePerMonth",
+      "pass": true
+    },
+    {
+      "actual": 119.88,
+      "name": "monthly.pricePerYear",
+      "pass": true
+    },
+    {
+      "actual": "not applicable",
+      "name": "documented null guard",
+      "pass": true
+    }
+  ],
+  "failed": 0,
+  "finished": true,
+  "passed": 11,
+  "products": [
+    {
+      "currencyCode": "USD",
+      "description": "",
+      "discounts": [],
+      "identifier": "bug_reporter_monthly",
+      "installmentsInfo": null,
+      "introPrice": null,
+      "price": 9.99,
+      "pricePerMonth": 9.99,
+      "pricePerMonthString": "$9.99",
+      "pricePerWeek": 2.29,
+      "pricePerWeekString": "$2.29",
+      "pricePerYear": 119.88,
+      "pricePerYearString": "$119.88",
+      "priceString": "$9.99",
+      "productCategory": "SUBSCRIPTION",
+      "productType": "AUTO_RENEWABLE_SUBSCRIPTION",
+      "subscriptionPeriod": "P1M",
+      "title": "Bug Reporter Monthly"
+    },
+    {
+      "currencyCode": "USD",
+      "description": "",
+      "discounts": [],
+      "identifier": "bug_reporter_lifetime",
+      "installmentsInfo": null,
+      "introPrice": null,
+      "price": 19.989999999999995,
+      "pricePerMonth": null,
+      "pricePerMonthString": null,
+      "pricePerWeek": null,
+      "pricePerWeekString": null,
+      "pricePerYear": null,
+      "pricePerYearString": null,
+      "priceString": "$19.99",
+      "productCategory": "NON_SUBSCRIPTION",
+      "productType": "NON_CONSUMABLE",
+      "subscriptionPeriod": null,
+      "title": "QA Lifetime"
+    }
+  ],
+  "projectId": "proj602cc762",
+  "syntheticUser": "bug-reporter-price-F783BAB8-CDDC-48A0-AB8A-10D524ADCDE9",
+  "binaryPath": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/phc-app/derived/Build/Products/Debug-iphonesimulator/SharedPriceRepro.app",
+  "recording": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/phc-app/evidence/fixed.mp4",
+  "screenshot": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/phc-app/evidence/fixed.png"
+}

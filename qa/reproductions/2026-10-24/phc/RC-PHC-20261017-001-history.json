@@ -1,0 +1,13 @@
+{
+  "id": "RC-PHC-20261017-001",
+  "repository": "RevenueCat/purchases-hybrid-common",
+  "commit": "d6696547e597703811213284a9b935224ff5fc1f",
+  "pullRequest": "https://github.com/RevenueCat/purchases-hybrid-common/pull/621",
+  "mergedDate": "2024-07-24",
+  "firstStableSourceTag": "12.0.0",
+  "classification": "Present since the per-period properties were introduced.",
+  "evidence": "The original mapper initializes six keys to `NSNull` and then removes them by assigning nil optionals. Executing that unmodified historical mapper reproduces all six missing fields; six non-null controls remain present. The same PR already documented \u201cNull for INAPP products.\u201d [#1195](https://github.com/RevenueCat/purchases-hybrid-common/pull/1195) later corrected TypeScript nullability (2025-07-09); it did not introduce the serialization defect. The parent had no per-period fields.",
+  "limitations": "Unmodified historical mapper compiled on macOS with synthetic RevenueCat product properties. A separate type alias resolves the current StoreKit name collision. No full 2024 SDK/app build was executed.",
+  "investigatedAt": "2026-10-17",
+  "evidenceDirectory": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/history/2026-10-17"
+}

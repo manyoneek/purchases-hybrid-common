@@ -1,0 +1,100 @@
+{
+  "devicesAndConfigurations": [
+    {
+      "device": {
+        "architecture": "arm64",
+        "deviceId": "286DC73D-2455-4F1B-A4A2-56E3BDEE64D9",
+        "deviceName": "iPhone Duo",
+        "modelName": "iPhone",
+        "osBuildNumber": "24A94232",
+        "osVersion": "27.1",
+        "platform": "iOS Simulator"
+      },
+      "expectedFailures": 0,
+      "failedTests": 7,
+      "passedTests": 17,
+      "skippedTests": 0,
+      "testPlanConfiguration": {
+        "configurationId": "1",
+        "configurationName": "Test Scheme Action"
+      }
+    }
+  ],
+  "environmentDescription": "PurchasesHybridCommon \u00b7 Built with macOS 27.0.1",
+  "expectedFailures": 0,
+  "failedTests": 7,
+  "finishTime": 1792832676.112,
+  "passedTests": 17,
+  "result": "Failed",
+  "runtimeWarnings": [],
+  "skippedTests": 0,
+  "startTime": 1792832670.153,
+  "statistics": [],
+  "testFailures": [
+    {
+      "failureText": "expected to be an instance of NSNull, got <nil> (use beNil() to match nils)\n",
+      "targetName": "PurchasesHybridCommonTests",
+      "testIdentifier": 2,
+      "testIdentifierString": "StoreProductHybridAdditionsTests/non_subscription_period_price_null_contract__serializes_explicit_null_for_pricePerMonth()",
+      "testIdentifierURL": "test://com.apple.xcode/PurchasesHybridCommon/PurchasesHybridCommonTests/StoreProductHybridAdditionsTests/non_subscription_period_price_null_contract__serializes_explicit_null_for_pricePerMonth",
+      "testName": "non_subscription_period_price_null_contract__serializes_explicit_null_for_pricePerMonth()"
+    },
+    {
+      "failureText": "expected to be an instance of NSNull, got <nil> (use beNil() to match nils)\n",
+      "targetName": "PurchasesHybridCommonTests",
+      "testIdentifier": 3,
+      "testIdentifierString": "StoreProductHybridAdditionsTests/non_subscription_period_price_null_contract__serializes_explicit_null_for_pricePerMonthString()",
+      "testIdentifierURL": "test://com.apple.xcode/PurchasesHybridCommon/PurchasesHybridCommonTests/StoreProductHybridAdditionsTests/non_subscription_period_price_null_contract__serializes_explicit_null_for_pricePerMonthString",
+      "testName": "non_subscription_period_price_null_contract__serializes_explicit_null_for_pricePerMonthString()"
+    },
+    {
+      "failureText": "expected to be an instance of NSNull, got <nil> (use beNil() to match nils)\n",
+      "targetName": "PurchasesHybridCommonTests",
+      "testIdentifier": 4,
+      "testIdentifierString": "StoreProductHybridAdditionsTests/non_subscription_period_price_null_contract__serializes_explicit_null_for_pricePerWeek()",
+      "testIdentifierURL": "test://com.apple.xcode/PurchasesHybridCommon/PurchasesHybridCommonTests/StoreProductHybridAdditionsTests/non_subscription_period_price_null_contract__serializes_explicit_null_for_pricePerWeek",
+      "testName": "non_subscription_period_price_null_contract__serializes_explicit_null_for_pricePerWeek()"
+    },
+    {
+      "failureText": "expected to be an instance of NSNull, got <nil> (use beNil() to match nils)\n",
+      "targetName": "PurchasesHybridCommonTests",
+      "testIdentifier": 5,
+      "testIdentifierString": "StoreProductHybridAdditionsTests/non_subscription_period_price_null_contract__serializes_explicit_null_for_pricePerWeekString()",
+      "testIdentifierURL": "test://com.apple.xcode/PurchasesHybridCommon/PurchasesHybridCommonTests/StoreProductHybridAdditionsTests/non_subscription_period_price_null_contract__serializes_explicit_null_for_pricePerWeekString",
+      "testName": "non_subscription_period_price_null_contract__serializes_explicit_null_for_pricePerWeekString()"
+    },
+    {
+      "failureText": "expected to be an instance of NSNull, got <nil> (use beNil() to match nils)\n",
+      "targetName": "PurchasesHybridCommonTests",
+      "testIdentifier": 6,
+      "testIdentifierString": "StoreProductHybridAdditionsTests/non_subscription_period_price_null_contract__serializes_explicit_null_for_pricePerYear()",
+      "testIdentifierURL": "test://com.apple.xcode/PurchasesHybridCommon/PurchasesHybridCommonTests/StoreProductHybridAdditionsTests/non_subscription_period_price_null_contract__serializes_explicit_null_for_pricePerYear",
+      "testName": "non_subscription_period_price_null_contract__serializes_explicit_null_for_pricePerYear()"
+    },
+    {
+      "failureText": "expected to be an instance of NSNull, got <nil> (use beNil() to match nils)\n",
+      "targetName": "PurchasesHybridCommonTests",
+      "testIdentifier": 7,
+      "testIdentifierString": "StoreProductHybridAdditionsTests/non_subscription_period_price_null_contract__serializes_explicit_null_for_pricePerYearString()",
+      "testIdentifierURL": "test://com.apple.xcode/PurchasesHybridCommon/PurchasesHybridCommonTests/StoreProductHybridAdditionsTests/non_subscription_period_price_null_contract__serializes_explicit_null_for_pricePerYearString",
+      "testName": "non_subscription_period_price_null_contract__serializes_explicit_null_for_pricePerYearString()"
+    },
+    {
+      "failureText": "expected to equal <18>, got <12>\n",
+      "targetName": "PurchasesHybridCommonTests",
+      "testIdentifier": 24,
+      "testIdentifierString": "StoreProductHybridAdditionsTests/rc_dictionary__rc_dictionary_has_correct_size()",
+      "testIdentifierURL": "test://com.apple.xcode/PurchasesHybridCommon/PurchasesHybridCommonTests/StoreProductHybridAdditionsTests/rc_dictionary__rc_dictionary_has_correct_size",
+      "testName": "rc_dictionary__rc_dictionary_has_correct_size()"
+    }
+  ],
+  "title": "Test - PurchasesHybridCommon",
+  "topInsights": [
+    {
+      "category": "Common Failures",
+      "impact": "85% of failures",
+      "text": "12 runs of 6 tests failed with expected to be an instance of NSNull, got <nil> (use beNil() to match nils)"
+    }
+  ],
+  "totalTestCount": 24
+}

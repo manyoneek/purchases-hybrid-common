@@ -1,0 +1,32 @@
+[
+  {
+    "scene": "symptom",
+    "seconds": 7,
+    "source": null
+  },
+  {
+    "scene": "before",
+    "seconds": 7,
+    "source": "before.mp4"
+  },
+  {
+    "scene": "cause",
+    "seconds": 8,
+    "source": null
+  },
+  {
+    "scene": "fix",
+    "seconds": 8,
+    "source": null
+  },
+  {
+    "scene": "after",
+    "seconds": 6,
+    "source": "fixed.mp4"
+  },
+  {
+    "scene": "verification",
+    "seconds": 9,
+    "source": null
+  }
+]

@@ -1,0 +1,136 @@
+{
+  "upstream": "ed23f3f08d1abe97d0ebe591b708bb984f8c2ced",
+  "fixes": {
+    "phc-ios-fix": "fe165d34e7575c3155fb58326d0f32d784aa727c",
+    "phc-web-fix": "9fe144bb43c4619834d5286fa8f3998397fe9d33"
+  },
+  "date": "2026-10-24",
+  "native": "RevenueCat 5.98.0",
+  "web": "purchases-js 1.73.1",
+  "files": {
+    "ios-fix.patch": {
+      "sha256": "df00ed48e87c18b3fc481ea6db3ee6a8fd4cbab7bda66d7a06e1f42bab303147",
+      "bytes": 4093
+    },
+    "phc-native-fixed-summary.json": {
+      "sha256": "9af7544b290b32eeff03dc98a1fb99664144a174978fb3e44dcff49bda04504d",
+      "bytes": 980
+    },
+    "source.zip": {
+      "sha256": "3e3f1996973e3e1949e1f3d0b5353bca518d05932fd53ce2393d7e98b0ae67d2",
+      "bytes": 1086412
+    },
+    "unit-Podfile.lock": {
+      "sha256": "4ea2bae32b4f57f1a7dab0230fb13a9d004865bbe3a291fd308a70bc67e664cb",
+      "bytes": 626
+    },
+    "native-Podfile.lock": {
+      "sha256": "53ecd007a619c4e80ccd94fdde380e859cb7cff34a8c9c83ac3faeed804446cd",
+      "bytes": 514
+    },
+    "web-fix.patch": {
+      "sha256": "5d95a9644717878abc1282471426b0623f3de3f29edc796b3c0957baf8794e11",
+      "bytes": 6610
+    },
+    "RC-PHC-20261017-002-history.json": {
+      "sha256": "1da31e4cdea78d31d909733260c902f0c04b13fae5d77a3a589c523c93230940",
+      "bytes": 1108
+    },
+    "commands.json": {
+      "sha256": "c6961c998cd5081ca1b0c7a8f0a7080d7c3616f6e298fba0885f6b0d252cf384",
+      "bytes": 10401
+    },
+    "phc-native-before-summary.json": {
+      "sha256": "229ce9031e8c8b39a55598409da3ed54de38b06285e0d4b137b6cf3931ad51c9",
+      "bytes": 5830
+    },
+    "RC-PHC-20261017-001-history.json": {
+      "sha256": "2330fc5df6a4d2e25226df519122a2ed2d92ed5dc76b2cb9458cfde038214933",
+      "bytes": 1259
+    },
+    "phc-native-baseline-summary.json": {
+      "sha256": "c4c0d59911476a0a4d98f866262fd5f16d9d68426cf2763bbad87a3d610ce3ed",
+      "bytes": 980
+    },
+    "logs.zip": {
+      "sha256": "66bbbf10e098e218108793035ba58f1e22f27d94ec688dbb5657ee6da23a2454",
+      "bytes": 209434
+    },
+    "web-yarn.lock": {
+      "sha256": "1056613c21572758198dbd1820f61c1b629bbc347743201e86ffae75dae407a6",
+      "bytes": 170740
+    },
+    "evidence/web-before.png": {
+      "sha256": "aff3e9a220ecf71536441144f0a26c354f5ba429e896b094457a598a51b05ea5",
+      "bytes": 105605
+    },
+    "evidence/before.png": {
+      "sha256": "63d10ea4f83f07209a3a63d2fc81ecd45557bc7451977e44b834ea2a90761c29",
+      "bytes": 333322
+    },
+    "evidence/web-before-results.json": {
+      "sha256": "ad89bbb54c3305dc768a20b654c2f34a3f71d00136a86183cd0ffe74d2abc829",
+      "bytes": 4705
+    },
+    "evidence/fixed-results.json": {
+      "sha256": "8f2133c95f718fd373dd89712089c655c779eb1d2365d221f744cc8403e9e021",
+      "bytes": 2925
+    },
+    "evidence/fixed.mp4": {
+      "sha256": "3e40050e1916e1580154c925fbc18242c0643389dba866ee25a854e38f310bb3",
+      "bytes": 2036229
+    },
+    "evidence/before-results.json": {
+      "sha256": "48b017eeb6f07114a440cab41e9ff92eb72b89b58466b13f26af20c0e44bfd23",
+      "bytes": 2855
+    },
+    "evidence/web-fixed.mp4": {
+      "sha256": "02686511f67ad133930d9bb8092d808ee20fab4d94a546aa39de50c1e7fa1775",
+      "bytes": 75761
+    },
+    "evidence/web-fixed-results.json": {
+      "sha256": "35ea4e5e6f3d68402b5110c39bfaf1f58301e3db4a873ec6645a7de019ebd1b0",
+      "bytes": 4683
+    },
+    "evidence/web-fixed.png": {
+      "sha256": "ec28a00984d5fb2b999a693e3eb98e55e5c3fccdd5432816ab47c934b2811657",
+      "bytes": 102413
+    },
+    "evidence/web-before.mp4": {
+      "sha256": "aed4260ebaffc14a2f9c01eda15044605d7864cf4625ea18a3c5071328840bc1",
+      "bytes": 80805
+    },
+    "evidence/before.mp4": {
+      "sha256": "024ab8df8da1e794b8fa81e6f19c586dc42d68fe496524ddf7c727c4e4057307",
+      "bytes": 2129720
+    },
+    "evidence/fixed.png": {
+      "sha256": "e446e39ed2fdaf66c6bf9b585e78b948295fb71af8e27851fb2790754aba0e11",
+      "bytes": 316552
+    },
+    "explainers/web/sources.json": {
+      "sha256": "0855f83f7f5a0171cf182e9f6ef0772f9a7cb926f8c2697cfcf7c1d857984bcc",
+      "bytes": 442
+    },
+    "explainers/web/explainer.mp4": {
+      "sha256": "e5dd624237af23952f329bea95cc8d07b1dab3f4b6a023c1b20c451f3663db77",
+      "bytes": 428900
+    },
+    "explainers/web/transcript.md": {
+      "sha256": "ca7b7e893894cc25964feec3b6bb8f92ee01a801ba27e2006d3207e119b3350e",
+      "bytes": 1150
+    },
+    "explainers/ios/sources.json": {
+      "sha256": "bcc344e8b80ee33634cfc6f4dedbe1868415259178c3b9e25886d8ed9641bf74",
+      "bytes": 433
+    },
+    "explainers/ios/explainer.mp4": {
+      "sha256": "a3a4a520ccff672c06955eb5e7f83810cf32a3e8b3d14c7d10fc7b846d5882f3",
+      "bytes": 843384
+    },
+    "explainers/ios/transcript.md": {
+      "sha256": "4f02314fb01129922724f26be6719bd558b79af2219440aad8276798ec74064f",
+      "bytes": 1177
+    }
+  }
+}

@@ -1,0 +1,69 @@
+diff --git a/ios/PurchasesHybridCommon/PurchasesHybridCommon/StoreProduct+HybridAdditions.swift b/ios/PurchasesHybridCommon/PurchasesHybridCommon/StoreProduct+HybridAdditions.swift
+index 941feb78..0e3ca281 100644
+--- a/ios/PurchasesHybridCommon/PurchasesHybridCommon/StoreProduct+HybridAdditions.swift
++++ b/ios/PurchasesHybridCommon/PurchasesHybridCommon/StoreProduct+HybridAdditions.swift
+@@ -74,12 +74,12 @@ internal extension StoreProduct {
+             "installmentsInfo": NSNull(),
+         ]
+ 
+-        dictionary["pricePerWeek"] = self.pricePerWeek
+-        dictionary["pricePerMonth"] = self.pricePerMonth
+-        dictionary["pricePerYear"] = self.pricePerYear
+-        dictionary["pricePerWeekString"] = self.localizedPricePerWeek
+-        dictionary["pricePerMonthString"] = self.localizedPricePerMonth
+-        dictionary["pricePerYearString"] = self.localizedPricePerYear
++        dictionary["pricePerWeek"] = self.pricePerWeek ?? NSNull()
++        dictionary["pricePerMonth"] = self.pricePerMonth ?? NSNull()
++        dictionary["pricePerYear"] = self.pricePerYear ?? NSNull()
++        dictionary["pricePerWeekString"] = self.localizedPricePerWeek ?? NSNull()
++        dictionary["pricePerMonthString"] = self.localizedPricePerMonth ?? NSNull()
++        dictionary["pricePerYearString"] = self.localizedPricePerYear ?? NSNull()
+ 
+         if let introductoryDiscount = self.introductoryDiscount {
+             dictionary["introPrice"] = introductoryDiscount.rc_dictionary
+diff --git a/ios/PurchasesHybridCommon/PurchasesHybridCommonTests/StoreProduct+HybridAdditionsTests.swift b/ios/PurchasesHybridCommon/PurchasesHybridCommonTests/StoreProduct+HybridAdditionsTests.swift
+index a4f0d48f..4d475f9c 100644
+--- a/ios/PurchasesHybridCommon/PurchasesHybridCommonTests/StoreProduct+HybridAdditionsTests.swift
++++ b/ios/PurchasesHybridCommon/PurchasesHybridCommonTests/StoreProduct+HybridAdditionsTests.swift
+@@ -68,6 +68,32 @@ class StoreProductHybridAdditionsTests: QuickSpec {
+     }
+ 
+     override func spec() {
++
++        describe("non-subscription period-price null contract") {
++            let fields = ["pricePerWeek", "pricePerMonth", "pricePerYear", "pricePerWeekString", "pricePerMonthString", "pricePerYearString"]
++            for field in fields {
++                it("serializes explicit null for " + field) {
++                    let product = TestStoreProduct(
++                        localizedTitle: "Lifetime", price: Decimal(19.99), currencyCode: "USD",
++                        localizedPriceString: "$19.99", productIdentifier: "lifetime",
++                        productType: .nonConsumable, localizedDescription: "Lifetime control",
++                        subscriptionPeriod: nil, locale: Locale(identifier: "en_US")
++                    ).toStoreProduct()
++                    let dictionary = product.rc_dictionary
++                    expect(dictionary[field]).to(beAnInstanceOf(NSNull.self))
++                    let json = try JSONSerialization.data(withJSONObject: dictionary)
++                    let roundTrip = try JSONSerialization.jsonObject(with: json) as! [String: Any]
++                    expect(roundTrip[field]).to(beAnInstanceOf(NSNull.self))
++                }
++            }
++            it("keeps numeric period prices for subscriptions") {
++                let product = Self.testStoreProduct(billingPlanType: nil)
++                for field in fields.prefix(3) {
++                    expect(product.rc_dictionary[field] as? NSNumber).toNot(beNil())
++                }
++            }
++        }
++
+         describe("rc_dictionary") {
+             it("maps currency code correctly") {
+                 let receivedDictionary = self.storeProductDictionary(with: Locale(identifier: "en_CA"))
+@@ -247,7 +273,7 @@ class StoreProductHybridAdditionsTests: QuickSpec {
+             it("rc_dictionary has correct size") {
+                 let receivedDictionary = self.storeProductDictionary()
+ 
+-                expect(receivedDictionary.count) == 12
++                expect(receivedDictionary.count) == 18
+             }
+         }
+     }

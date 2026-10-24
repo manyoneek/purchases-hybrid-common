@@ -1,0 +1,23 @@
+PODS:
+  - PurchasesHybridCommon (19.15.1):
+    - RevenueCat (= 5.98.0)
+  - RevenueCat (5.98.0)
+
+DEPENDENCIES:
+  - PurchasesHybridCommon (from `../../worktrees/phc-ios-fix`)
+
+SPEC REPOS:
+  trunk:
+    - RevenueCat
+
+EXTERNAL SOURCES:
+  PurchasesHybridCommon:
+    :path: "../../worktrees/phc-ios-fix"
+
+SPEC CHECKSUMS:
+  PurchasesHybridCommon: e82119e518315df961a864ec1f066e9ba207c7d4
+  RevenueCat: d2d6a98d8e1d53cc1c6362cc1fdfb64ca99b8735
+
+PODFILE CHECKSUM: 3b1ab519283fabcc483b4450cf49e34aecde5b95
+
+COCOAPODS: 1.17.0
