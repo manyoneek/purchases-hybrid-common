@@ -1,0 +1,2 @@
+import RevenueCat
+typealias SubscriptionPeriod = RevenueCat.SubscriptionPeriod

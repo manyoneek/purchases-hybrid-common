@@ -1,0 +1,1 @@
+Original October 17 historical source, tests and artifacts, copied without rerunning them. See the introduction records for commits, dates and limitations. These are synthetic-property/unit checks; current real-app evidence is separate.

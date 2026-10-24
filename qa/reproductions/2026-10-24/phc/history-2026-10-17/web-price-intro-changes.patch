@@ -1,0 +1,59 @@
+diff --git a/purchases-js-hybrid-mappings/src/mappers/offerings_mapper.ts b/purchases-js-hybrid-mappings/src/mappers/offerings_mapper.ts
+index 207a0363..aed8ce5b 100644
+--- a/purchases-js-hybrid-mappings/src/mappers/offerings_mapper.ts
++++ b/purchases-js-hybrid-mappings/src/mappers/offerings_mapper.ts
+@@ -58,9 +58,9 @@ function mapProduct(product: Product): Record<string, unknown> {
+     "currencyCode": product.currentPrice.currency,
+     "introPrice": mapIntroPrice(product), // Not supported in web yet
+     "discounts": null,
+-    "pricePerWeek": defaultOptionBasePricingPhase?.pricePerWeek?.amountMicros ?? null,
+-    "pricePerMonth": defaultOptionBasePricingPhase?.pricePerMonth?.amountMicros ?? null,
+-    "pricePerYear": defaultOptionBasePricingPhase?.pricePerYear?.amountMicros ?? null,
++    "pricePerWeek": defaultOptionBasePricingPhase?.pricePerWeek ? defaultOptionBasePricingPhase.pricePerWeek.amountMicros / 1_000_000 : null,
++    "pricePerMonth": defaultOptionBasePricingPhase?.pricePerMonth ? defaultOptionBasePricingPhase.pricePerMonth.amountMicros / 1_000_000 : null,
++    "pricePerYear": defaultOptionBasePricingPhase?.pricePerYear ? defaultOptionBasePricingPhase.pricePerYear.amountMicros / 1_000_000 : null,
+     "pricePerWeekString": defaultOptionBasePricingPhase?.pricePerWeek?.formattedPrice ?? null,
+     "pricePerMonthString": defaultOptionBasePricingPhase?.pricePerMonth?.formattedPrice ?? null,
+     "pricePerYearString": defaultOptionBasePricingPhase?.pricePerYear?.formattedPrice ?? null,
+diff --git a/purchases-js-hybrid-mappings/tests/mappers/offerings_mapper.test.ts b/purchases-js-hybrid-mappings/tests/mappers/offerings_mapper.test.ts
+index aa61fabb..e58821ab 100644
+--- a/purchases-js-hybrid-mappings/tests/mappers/offerings_mapper.test.ts
++++ b/purchases-js-hybrid-mappings/tests/mappers/offerings_mapper.test.ts
+@@ -540,6 +540,37 @@ describe('mapOfferings', () => {
+     });
+   });
+ 
++
++  describe('QA public currency-unit contract', () => {
++    it.each(['Week', 'Month', 'Year'])('maps pricePer%s to major currency units', period => {
++      const pkg = createPackage('qa', 'qa', PackageType.Monthly);
++      const offering = {identifier: 'qa', serverDescription: 'qa', availablePackages: [pkg]} as Offering;
++      const result = mapOfferings({all: {qa: offering}, current: offering});
++      const mapped = (result.current as any).availablePackages[0].product;
++      const input = (pkg.webBillingProduct.defaultSubscriptionOption!.base as any)['pricePer' + period];
++      expect(mapped['pricePer' + period]).toBe(input.amountMicros / 1_000_000);
++      expect(mapped['pricePer' + period + 'String']).toBe(input.formattedPrice);
++    });
++    it('preserves null period prices on lifetime products', () => {
++      const pkg = createPackage('qa', 'qa', PackageType.Lifetime);
++      const offering = {identifier: 'qa', serverDescription: 'qa', availablePackages: [pkg]} as Offering;
++      const result = mapOfferings({all: {qa: offering}, current: offering});
++      const mapped = (result.current as any).availablePackages[0].product;
++      for (const period of ['Week', 'Month', 'Year']) expect(mapped['pricePer' + period]).toBeNull();
++    });
++    it('preserves zero period prices', () => {
++      const pkg = createPackage('qa', 'qa', PackageType.Monthly);
++      const base = pkg.webBillingProduct.defaultSubscriptionOption!.base;
++      for (const period of ['Week', 'Month', 'Year']) {
++        (base as any)['pricePer' + period] = {amountMicros: 0, amount: 0, currency: 'USD', formattedPrice: '$0.00'};
++      }
++      const offering = {identifier: 'qa', serverDescription: 'qa', availablePackages: [pkg]} as Offering;
++      const result = mapOfferings({all: {qa: offering}, current: offering});
++      const mapped = (result.current as any).availablePackages[0].product;
++      for (const period of ['Week', 'Month', 'Year']) expect(mapped['pricePer' + period]).toBe(0);
++    });
++  });
++
+   function createPackage(identifier: string, offeringId: string, packageType: PackageType): Package {
+     const presentedOfferingContext: PresentedOfferingContext = {
+       offeringIdentifier: offeringId,

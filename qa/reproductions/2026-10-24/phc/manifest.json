@@ -17,8 +17,8 @@
       "bytes": 980
     },
     "source.zip": {
-      "sha256": "3e3f1996973e3e1949e1f3d0b5353bca518d05932fd53ce2393d7e98b0ae67d2",
-      "bytes": 1086412
+      "sha256": "ce5ab4ac7c35500e09c7763c2e247269be2433d9cbb46b93c4669187e30fdd6c",
+      "bytes": 1086415
     },
     "unit-Podfile.lock": {
       "sha256": "4ea2bae32b4f57f1a7dab0230fb13a9d004865bbe3a291fd308a70bc67e664cb",
@@ -37,8 +37,12 @@
       "bytes": 1108
     },
     "commands.json": {
-      "sha256": "c6961c998cd5081ca1b0c7a8f0a7080d7c3616f6e298fba0885f6b0d252cf384",
-      "bytes": 10401
+      "sha256": "f3eb32aad2d421ca7cc02db4683e45f87a8daed016bfbcb3a7550d2b6e026d09",
+      "bytes": 10836
+    },
+    "README.md": {
+      "sha256": "d79977eb996d2e95cdfe50ce8cd8cb2d584393b0751bebddf88c688eeb4ed964",
+      "bytes": 2306
     },
     "phc-native-before-summary.json": {
       "sha256": "229ce9031e8c8b39a55598409da3ed54de38b06285e0d4b137b6cf3931ad51c9",
@@ -53,8 +57,12 @@
       "bytes": 980
     },
     "logs.zip": {
-      "sha256": "66bbbf10e098e218108793035ba58f1e22f27d94ec688dbb5657ee6da23a2454",
-      "bytes": 209434
+      "sha256": "ee48ed4d514db215103c1a404c175a1e019a56ea795d296343b31bfe353026d5",
+      "bytes": 209633
+    },
+    "manifest.json": {
+      "sha256": "d8a52b07ea61cdd0fe3f7390e3f9b970fdf93d797b04555ed19336eb53422369",
+      "bytes": 4791
     },
     "web-yarn.lock": {
       "sha256": "1056613c21572758198dbd1820f61c1b629bbc347743201e86ffae75dae407a6",

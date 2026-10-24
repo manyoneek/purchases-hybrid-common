@@ -85,6 +85,18 @@
     "seconds": 1.4,
     "log": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/logs/mappings-regression-before.log"
   },
+  "mappings-lint-fixed": {
+    "command": [
+      "npm",
+      "run",
+      "lint"
+    ],
+    "cwd": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/worktrees/phc-web-fix/purchases-js-hybrid-mappings",
+    "exit": 0,
+    "timedOut": false,
+    "seconds": 1.31,
+    "log": "/Users/mannyoneek/.openclaw/workspace/projects/revenuecat-bug-reporter/runs/2026-10-24/logs/mappings-lint-fixed.log"
+  },
   "phc-app-project": {
     "command": [
       "xcodegen",

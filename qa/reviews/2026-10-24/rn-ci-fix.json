@@ -1,0 +1,15 @@
+{
+  "sha": "0ac62ecb70d196259b9b3b1d20f5c5bb157698bc",
+  "upstream": "bde1095e84113c07569c0aab6858171768cb9aaf",
+  "productionChanged": false,
+  "dependencyVersionsChanged": false,
+  "unsharedLocalTestExit": 0,
+  "sharedBefore": {
+    "passed": 3,
+    "failed": 1
+  },
+  "sharedFixed": {
+    "passed": 4,
+    "failed": 0
+  }
+}

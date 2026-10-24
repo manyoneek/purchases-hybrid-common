@@ -1,0 +1,26 @@
+{
+  "ios": {
+    "src": "https://private-user-images.githubusercontent.com/261259129/683532089-82777aa3-7623-4522-b3dd-aad20f86066a.mp4",
+    "duration": 45,
+    "width": 1920,
+    "height": 1080,
+    "playedSeconds": 1.206329,
+    "seekPosition": 34,
+    "readyState": 4,
+    "error": null,
+    "pullRequest": "https://github.com/RevenueCat/purchases-hybrid-common/pull/2023",
+    "verifiedAt": "2026-10-24T09:14:32.335Z"
+  },
+  "web": {
+    "src": "https://private-user-images.githubusercontent.com/261259129/683532113-9dece709-a92d-42d2-b6a5-f36a902e210d.mp4",
+    "duration": 45,
+    "width": 1920,
+    "height": 1080,
+    "playedSeconds": 1.203562,
+    "seekPosition": 34,
+    "readyState": 4,
+    "error": null,
+    "pullRequest": "https://github.com/RevenueCat/purchases-hybrid-common/pull/2025",
+    "verifiedAt": "2026-10-24T09:14:36.335Z"
+  }
+}
